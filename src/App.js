@@ -1,7 +1,11 @@
+import Form from "./components/Form";
+import Table from "./components/Table";
+
 const App = () => {
     return (
-        <div className="App">
-            <h1>Hello world</h1>
+        <div className="container" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
+            <Form/>
+            <Table/>
         </div>
     );
 }
