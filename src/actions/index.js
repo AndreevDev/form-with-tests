@@ -40,3 +40,9 @@ export const locationsFetchingError = () => {
         type: 'LOCATIONS_FETCHING_ERROR'
     }
 }
+
+export const locationsCleared = () => {
+    return {
+        type: 'LOCATIONS_CLEARED'
+    }
+}

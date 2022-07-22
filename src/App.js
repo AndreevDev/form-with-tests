@@ -1,12 +1,13 @@
 import Form from "./components/Form";
 import Table from "./components/Table";
+import { Container } from "./components/StyledComponents";
 
 const App = () => {
     return (
-        <div className="container" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
+        <Container>
             <Form/>
             <Table/>
-        </div>
+        </Container>
     );
 }
 
