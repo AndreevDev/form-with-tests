@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App component should render correctly 1`] = `
+<div
+  className="sc-bdvvtL fyjYjc"
+>
+  <form
+    className="sc-gsDKAQ GdrzK"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <h2
+      className="sc-dkPtRN jwkkHd"
+    >
+      Registration form
+    </h2>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="firstName"
+      >
+        First Name
+      </label>
+      <input
+        id="firstName"
+        name="firstName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="First Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="lastName"
+      >
+        Last Name
+      </label>
+      <input
+        id="lastName"
+        name="lastName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Last Name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="telNumber"
+      >
+        Phone Number
+      </label>
+      <input
+        id="telNumber"
+        name="telNumber"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Phone Number"
+        type="number"
+      />
+    </div>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <input
+        id="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Email"
+        type="email"
+      />
+    </div>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="gender"
+      >
+        Gender
+      </label>
+      <select
+        default="Select gender"
+        defaultValue=""
+        id="gender"
+        name="gender"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Gender"
+      >
+        <option
+          disabled={true}
+          hidden={true}
+          value=""
+        >
+          Select gender
+          ...
+        </option>
+        <option
+          value="male"
+        >
+          Male
+        </option>
+        <option
+          value="female"
+        >
+          Female
+        </option>
+      </select>
+    </div>
+    <div
+      className="sc-hKwDye gXPudc"
+    >
+      <label
+        htmlFor="address"
+      >
+        Address
+      </label>
+      <input
+        id="address"
+        name="address"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Address"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-hKwDye jkRzkf"
+    >
+      <input
+        id="confirmation"
+        name="confirmation"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Confirmation"
+        type="checkbox"
+      />
+      <label
+        htmlFor="confirmation"
+      >
+        Confirmation
+      </label>
+    </div>
+    <div
+      className="sc-hKwDye leWEgE"
+    >
+      <input
+        type="submit"
+      />
+    </div>
+  </form>
+  <table
+    className="sc-iCfMLu cwlaKr"
+  >
+    <thead>
+      <tr>
+        <th>
+          First Name
+        </th>
+        <th>
+          Last Name
+        </th>
+        <th>
+          Phone
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Gender
+        </th>
+        <th>
+          Address
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          No customers yet
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

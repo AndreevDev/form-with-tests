@@ -72,7 +72,7 @@ const Form = () => {
                 required: true, 
                 onChange: (e) => {
                     if (e.target.value.length > 0) {
-                        dispatch(fetchLocations());
+                        dispatch(fetchLocations(e.target.value));
                     } else {
                         dispatch(locationsCleared());
                     }
